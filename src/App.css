@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  width: 100%;
+  height: 90px;
+}
+
+.App-header .heading-text {
+  float: right;
+  color: #8a8989;
+  font-size: 22px;
+  margin-top: 13px;
+}
+
+.left {
+  float: left;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.customer-list {
+  margin-top: 45px;
+  margin-bottom: 13px;
+}
+
+.customer-list .customer-table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.customer-list .customer-table td, th {
+  border: 1px solid #dddddd;
+  cursor: pointer;
+  text-align: left;
+  padding: 8px;
+}
+
+.customer-list .customer-table tr:hover {
+  background-color: #ffff99;
+}
+
+.add-button-container {
+  margin-top: 30px;
+}
+
+.button {
+  width: 100%;
+  background-color: #2185d0;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.input-field {
+  height: 36px;
+  width: 98%;
+}
+
+.update-customer-container {
+  text-align: left;
+}
+
+.update-customer-container .input {
+  width: 80%;
+  height: 33px;
+  margin-bottom: 11px;
+}
+
+.tip {
+  width: 100%;
+  text-align: left;
+  margin-top: 10px;
+  color: #2185d0;
+  font-weight: bold;
+  font-size: 20px;
+}
