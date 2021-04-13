@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect, useState } from "react";
 import { updateCustomer, deleteCustomer } from "../un-stated/reducerOne";
 import { Counter } from "../un-stated";
